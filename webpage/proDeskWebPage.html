@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<style type="text/css">
+	
+	.index {
+		vertical-align: middle;
+	}
+	.studentattendanceIndex{
+		display: table;
+		table-layout: fixed;
+		width:100%;
+		height:60px;
+		object-fit: cover;
+		background-image: url(image/attendance.png);
+	}
+	.studentNotattendanceIndex{
+		display: table;
+		table-layout: fixed;
+		width:100%;
+		height:60px;
+		background-image: url(image/not_attendance.png);
+	}
+	.studentField{
+		height:60px;
+		text-align: middle;
+		vertical-align: middle;
+	}
+</style>
+<div>
+		<img src="image/head_background.png" style="width:100% ;height:auto;">		
+	</div>
+</head>
+<body background="image/total_background.jpg">
+	<header>
+		<table>
+			<tr >
+			</tr>
+			<tr>
+				<td style="width:40px"></td>
+				<td class="index">
+					<img id="characterImage" src="image/defaultimage.jpg" width =120px height=160px>
+				</td>
+				<td class="index" style="width: 50px"></td>
+				<td class="index" style="font-size:100px; width:430px">
+					<span id="subject" class="characterInformation">캡스톤</span>
+				</td>
+				<td class="index" style="font-size:60px; width:250px">
+					<span id="date" class="characterInformation" >date</span>
+				</td>
+				<td>
+				</td>
+				<td class="index" style="width: 180px">
+					<select name="subject" style="width: 100px; height:50px ;font-size:25px">
+						<option value="캡스톤">캡스톤</option>
+						<option value="C">C</option>
+						<option value="java">Java</option>
+					</select>
+				</td>	
+				<td class="index">
+					<input type="date" id="date">
+				</td>
+			</tr>
+		</table>	
+	</div>
+	</header>
+		<p><학생 목록></p>
+		
+		<table>
+			<tr class="studentattendanceIndex">
+				<td style="width: 30px"></td>
+				<td class="index">student name</td>
+				<td class="index">student id</td>
+			</tr>
+			<tr class="studentNotattendanceIndex">
+				<td style="width: 30px"></td>
+				<td class="index">student name</td>
+				<td class="index">student id</td>
+			</tr>
+		</table>
+
+	
+</body>
