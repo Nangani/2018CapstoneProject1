@@ -1,0 +1,4 @@
+python dot_detection model is bigger than 25MB, so I can't upload the model
+if you want model you can download
+https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat
+link
